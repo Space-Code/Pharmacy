@@ -3,22 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		26F03DF2023F0F9E7E536060 /* Pods_PharmacyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BF77BB20704D522690FCD7 /* Pods_PharmacyTests.framework */; };
 		5BE3E89D2301CD46009E1D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E89C2301CD46009E1D95 /* AppDelegate.swift */; };
-		5BE3E89F2301CD46009E1D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E89E2301CD46009E1D95 /* SceneDelegate.swift */; };
-		5BE3E8A12301CD46009E1D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8A02301CD46009E1D95 /* ViewController.swift */; };
-		5BE3E8A42301CD46009E1D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3E8A22301CD46009E1D95 /* Main.storyboard */; };
 		5BE3E8A72301CD46009E1D95 /* Pharmacy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8A52301CD46009E1D95 /* Pharmacy.xcdatamodeld */; };
 		5BE3E8A92301CD4A009E1D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3E8A82301CD4A009E1D95 /* Assets.xcassets */; };
 		5BE3E8AC2301CD4A009E1D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3E8AA2301CD4A009E1D95 /* LaunchScreen.storyboard */; };
 		5BE3E8B72301CD4A009E1D95 /* PharmacyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8B62301CD4A009E1D95 /* PharmacyTests.swift */; };
 		5BE3E8C22301CD4A009E1D95 /* PharmacyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8C12301CD4A009E1D95 /* PharmacyUITests.swift */; };
+		5BE3E8D02301D700009E1D95 /* AppDelegateDISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8CF2301D700009E1D95 /* AppDelegateDISetup.swift */; };
+		5BE3E8D72301DEE0009E1D95 /* MainPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8D62301DEE0009E1D95 /* MainPresentation.swift */; };
+		5BE3E8D92301DF03009E1D95 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8D82301DF03009E1D95 /* MainController.swift */; };
 		767C06C8C4F7B5FE2B1345D8 /* Pods_Pharmacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29668BB969E0BA4D443494E5 /* Pods_Pharmacy.framework */; };
-		A833427FB0412C690283817E /* Pods_PharmacyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63BD32F65829D0BF17E5E91 /* Pods_PharmacyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,17 +39,12 @@
 
 /* Begin PBXFileReference section */
 		29668BB969E0BA4D443494E5 /* Pods_Pharmacy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharmacy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32ED0704BD738985A34C71F5 /* Pods-PharmacyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacyUITests.debug.xcconfig"; path = "Target Support Files/Pods-PharmacyUITests/Pods-PharmacyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D43A82FD46B9BF846751D20 /* Pods-PharmacyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacyUITests.release.xcconfig"; path = "Target Support Files/Pods-PharmacyUITests/Pods-PharmacyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		433AD3D10A4DA629EB6D2FD3 /* Pods-PharmacyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacyTests.release.xcconfig"; path = "Target Support Files/Pods-PharmacyTests/Pods-PharmacyTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E00CF85FEFB98C84DB21B67 /* Pods-Pharmacy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharmacy.release.xcconfig"; path = "Target Support Files/Pods-Pharmacy/Pods-Pharmacy.release.xcconfig"; sourceTree = "<group>"; };
 		59BF77BB20704D522690FCD7 /* Pods_PharmacyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PharmacyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FCE968E3DD212CAE7374F5 /* Pods-Pharmacy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharmacy.debug.xcconfig"; path = "Target Support Files/Pods-Pharmacy/Pods-Pharmacy.debug.xcconfig"; sourceTree = "<group>"; };
 		5BE3E8992301CD46009E1D95 /* Pharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE3E89C2301CD46009E1D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BE3E89E2301CD46009E1D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BE3E8A02301CD46009E1D95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BE3E8A32301CD46009E1D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BE3E8A62301CD46009E1D95 /* Pharmacy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pharmacy.xcdatamodel; sourceTree = "<group>"; };
 		5BE3E8A82301CD4A009E1D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE3E8AB2301CD4A009E1D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +55,9 @@
 		5BE3E8BD2301CD4A009E1D95 /* PharmacyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmacyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE3E8C12301CD4A009E1D95 /* PharmacyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyUITests.swift; sourceTree = "<group>"; };
 		5BE3E8C32301CD4A009E1D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A63BD32F65829D0BF17E5E91 /* Pods_PharmacyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PharmacyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE3E8CF2301D700009E1D95 /* AppDelegateDISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateDISetup.swift; sourceTree = "<group>"; };
+		5BE3E8D62301DEE0009E1D95 /* MainPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresentation.swift; sourceTree = "<group>"; };
+		5BE3E8D82301DF03009E1D95 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		F29D1BA980CE460E6C3BC0C9 /* Pods-PharmacyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacyTests.debug.xcconfig"; path = "Target Support Files/Pods-PharmacyTests/Pods-PharmacyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A833427FB0412C690283817E /* Pods_PharmacyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,14 +113,12 @@
 		5BE3E89B2301CD46009E1D95 /* Pharmacy */ = {
 			isa = PBXGroup;
 			children = (
+				5BE3E8D32301DE61009E1D95 /* Data */,
+				5BE3E8D22301DE2E009E1D95 /* Assets */,
+				5BE3E8D12301DE15009E1D95 /* Presentation */,
 				5BE3E89C2301CD46009E1D95 /* AppDelegate.swift */,
-				5BE3E89E2301CD46009E1D95 /* SceneDelegate.swift */,
-				5BE3E8A02301CD46009E1D95 /* ViewController.swift */,
-				5BE3E8A22301CD46009E1D95 /* Main.storyboard */,
-				5BE3E8A82301CD4A009E1D95 /* Assets.xcassets */,
-				5BE3E8AA2301CD4A009E1D95 /* LaunchScreen.storyboard */,
 				5BE3E8AD2301CD4A009E1D95 /* Info.plist */,
-				5BE3E8A52301CD46009E1D95 /* Pharmacy.xcdatamodeld */,
+				5BE3E8CF2301D700009E1D95 /* AppDelegateDISetup.swift */,
 			);
 			path = Pharmacy;
 			sourceTree = "<group>";
@@ -148,6 +141,40 @@
 			path = PharmacyUITests;
 			sourceTree = "<group>";
 		};
+		5BE3E8D12301DE15009E1D95 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3E8D52301DEB7009E1D95 /* Main */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5BE3E8D22301DE2E009E1D95 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3E8AA2301CD4A009E1D95 /* LaunchScreen.storyboard */,
+				5BE3E8A82301CD4A009E1D95 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5BE3E8D32301DE61009E1D95 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3E8A52301CD46009E1D95 /* Pharmacy.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5BE3E8D52301DEB7009E1D95 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3E8D62301DEE0009E1D95 /* MainPresentation.swift */,
+				5BE3E8D82301DF03009E1D95 /* MainController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		71E0B420DE761ADBB778D971 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,10 +182,7 @@
 				4E00CF85FEFB98C84DB21B67 /* Pods-Pharmacy.release.xcconfig */,
 				F29D1BA980CE460E6C3BC0C9 /* Pods-PharmacyTests.debug.xcconfig */,
 				433AD3D10A4DA629EB6D2FD3 /* Pods-PharmacyTests.release.xcconfig */,
-				32ED0704BD738985A34C71F5 /* Pods-PharmacyUITests.debug.xcconfig */,
-				3D43A82FD46B9BF846751D20 /* Pods-PharmacyUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -167,7 +191,6 @@
 			children = (
 				29668BB969E0BA4D443494E5 /* Pods_Pharmacy.framework */,
 				59BF77BB20704D522690FCD7 /* Pods_PharmacyTests.framework */,
-				A63BD32F65829D0BF17E5E91 /* Pods_PharmacyUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,6 +206,7 @@
 				5BE3E8952301CD46009E1D95 /* Sources */,
 				5BE3E8962301CD46009E1D95 /* Frameworks */,
 				5BE3E8972301CD46009E1D95 /* Resources */,
+				D10BFBD05F8570B9EAD88736 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,7 +241,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BE3E8CC2301CD4A009E1D95 /* Build configuration list for PBXNativeTarget "PharmacyUITests" */;
 			buildPhases = (
-				5B4D9900851F4CB1CD67B571 /* [CP] Check Pods Manifest.lock */,
 				5BE3E8B92301CD4A009E1D95 /* Sources */,
 				5BE3E8BA2301CD4A009E1D95 /* Frameworks */,
 				5BE3E8BB2301CD4A009E1D95 /* Resources */,
@@ -282,7 +305,6 @@
 			files = (
 				5BE3E8AC2301CD4A009E1D95 /* LaunchScreen.storyboard in Resources */,
 				5BE3E8A92301CD4A009E1D95 /* Assets.xcassets in Resources */,
-				5BE3E8A42301CD46009E1D95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,28 +347,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5B4D9900851F4CB1CD67B571 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PharmacyUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9288A52931B0FDBA7B67E4C6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +362,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PharmacyTests/Pods-PharmacyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D10BFBD05F8570B9EAD88736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pharmacy/Pods-Pharmacy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pharmacy/Pods-Pharmacy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pharmacy/Pods-Pharmacy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FB8F64917714C6A396B72DB8 /* [CP] Check Pods Manifest.lock */ = {
@@ -393,10 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE3E8A12301CD46009E1D95 /* ViewController.swift in Sources */,
+				5BE3E8D02301D700009E1D95 /* AppDelegateDISetup.swift in Sources */,
 				5BE3E89D2301CD46009E1D95 /* AppDelegate.swift in Sources */,
+				5BE3E8D72301DEE0009E1D95 /* MainPresentation.swift in Sources */,
 				5BE3E8A72301CD46009E1D95 /* Pharmacy.xcdatamodeld in Sources */,
-				5BE3E89F2301CD46009E1D95 /* SceneDelegate.swift in Sources */,
+				5BE3E8D92301DF03009E1D95 /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,14 +450,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5BE3E8A22301CD46009E1D95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BE3E8A32301CD46009E1D95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BE3E8AA2301CD4A009E1D95 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -649,7 +659,6 @@
 		};
 		5BE3E8CD2301CD4A009E1D95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32ED0704BD738985A34C71F5 /* Pods-PharmacyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -670,7 +679,6 @@
 		};
 		5BE3E8CE2301CD4A009E1D95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D43A82FD46B9BF846751D20 /* Pods-PharmacyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
