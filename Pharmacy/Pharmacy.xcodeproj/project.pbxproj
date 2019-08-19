@@ -17,6 +17,8 @@
 		5BE3E8D02301D700009E1D95 /* AppDelegateDISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8CF2301D700009E1D95 /* AppDelegateDISetup.swift */; };
 		5BE3E8D72301DEE0009E1D95 /* MainPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8D62301DEE0009E1D95 /* MainPresentation.swift */; };
 		5BE3E8D92301DF03009E1D95 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8D82301DF03009E1D95 /* MainController.swift */; };
+		5BE3E8DE230711B6009E1D95 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8DD230711B6009E1D95 /* MainView.swift */; };
+		5BE3E8E0230711C2009E1D95 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3E8DF230711C2009E1D95 /* MainPresenter.swift */; };
 		767C06C8C4F7B5FE2B1345D8 /* Pods_Pharmacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29668BB969E0BA4D443494E5 /* Pods_Pharmacy.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		5BE3E8CF2301D700009E1D95 /* AppDelegateDISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateDISetup.swift; sourceTree = "<group>"; };
 		5BE3E8D62301DEE0009E1D95 /* MainPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresentation.swift; sourceTree = "<group>"; };
 		5BE3E8D82301DF03009E1D95 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		5BE3E8DD230711B6009E1D95 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5BE3E8DF230711C2009E1D95 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		F29D1BA980CE460E6C3BC0C9 /* Pods-PharmacyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacyTests.debug.xcconfig"; path = "Target Support Files/Pods-PharmacyTests/Pods-PharmacyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,9 +174,35 @@
 			isa = PBXGroup;
 			children = (
 				5BE3E8D62301DEE0009E1D95 /* MainPresentation.swift */,
-				5BE3E8D82301DF03009E1D95 /* MainController.swift */,
+				5BE3E8DB2307110F009E1D95 /* Presenter */,
+				5BE3E8DA23071102009E1D95 /* Controller */,
+				5BE3E8DC23071117009E1D95 /* View */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		5BE3E8DA23071102009E1D95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3E8D82301DF03009E1D95 /* MainController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5BE3E8DB2307110F009E1D95 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3E8DF230711C2009E1D95 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5BE3E8DC23071117009E1D95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3E8DD230711B6009E1D95 /* MainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		71E0B420DE761ADBB778D971 /* Pods */ = {
@@ -411,9 +441,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE3E8D02301D700009E1D95 /* AppDelegateDISetup.swift in Sources */,
+				5BE3E8DE230711B6009E1D95 /* MainView.swift in Sources */,
 				5BE3E89D2301CD46009E1D95 /* AppDelegate.swift in Sources */,
 				5BE3E8D72301DEE0009E1D95 /* MainPresentation.swift in Sources */,
 				5BE3E8A72301CD46009E1D95 /* Pharmacy.xcdatamodeld in Sources */,
+				5BE3E8E0230711C2009E1D95 /* MainPresenter.swift in Sources */,
 				5BE3E8D92301DF03009E1D95 /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

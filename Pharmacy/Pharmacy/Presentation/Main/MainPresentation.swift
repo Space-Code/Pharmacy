@@ -23,7 +23,7 @@ final class MainPresentation {
      */
     static func build(with resolver: Resolver) -> MainPresentation{
         
-        
+        let controller = MovieDetailsController(presenter: presenter)
         return .init(controller: controller)
     }
 }
